@@ -692,6 +692,10 @@ input:focus {
     .booking__picture {
         margin-top: 50px;
     }
+    .daily span {
+        display: inline-block;
+        padding-right: 20px;
+    }
 }
 
 /* >1023px */
@@ -964,6 +968,9 @@ input:focus {
     .delicious__grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .grid__meal {
+        text-align: unset;
+    }
 }
 
 /* ------ delicious end ------ */ 
@@ -992,6 +999,7 @@ input:focus {
 .daily--events span {
     color: rgba(255, 255, 255, 0.5);
     font-weight: bold;
+    padding: 0px 5px;
 }
 
 /* ------ events end ------ */ 
@@ -1146,6 +1154,13 @@ textarea:focus {
     }
 }
 
+/* >768px */
+@media screen and (min-width: 768px) {
+    .contact__input {
+        margin-bottom: 15px;
+    }
+}
+
 /* >1024px */
 @media screen and (min-width: 1024px) {
     .contact {
@@ -1171,7 +1186,6 @@ textarea:focus {
         margin-right: 20px;
     }
     .contacts__details {
-        flex-direction: row;
         align-items: center;
     }
     .contacts__details a {
@@ -1187,6 +1201,25 @@ textarea:focus {
     .phone::before,
     .mail::before {
         padding: 0px 10px 0px 10px;
+    }
+    textarea {
+        width: 60%;
+        margin: 0px auto;
+    }
+}
+
+/* >1440px */
+@media screen and (min-width: 1440px) {
+    .contacts__details {
+        flex-direction: row;
+        align-items: center;
+    }
+    .contacts__details a {
+        margin-bottom: 0px;
+    }
+    textarea {
+        width: 100%;
+        margin: 0px;
     }
 }
 
