@@ -905,8 +905,11 @@ input:focus {
         display: flex;
         flex-wrap: wrap;
         margin: 15px 15px;
+        text-align: center;
     }
     .sub-menu a {
+        margin-bottom: 15px;
+        border-left: 1px solid rgba(51, 51, 51, 0.2);;
         font-size: 12px;
         width: 50%;
     }
@@ -1203,7 +1206,7 @@ textarea:focus {
 .copyright__message {
     font-family: "Open Sans", sans-serif;
     color: rgba(255, 255, 255, 0.5);
-    padding: 40px 0px;
+    padding: 40px 0px;First trial ready-made version with adaptive and interactive features
     text-align: center;
 }
 .copyright__message span {
