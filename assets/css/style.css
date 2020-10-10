@@ -390,6 +390,9 @@ h1, h2, h3, h4, h5, h6, p {
     .about__picture {
         width: 50%;
     }
+    .about__picture img {
+        padding: 0px 40px;
+    }
     .subtitle {
         font-size: 30px;
         line-height: 40px;
@@ -406,6 +409,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* >1200px */
 @media screen and (min-width: 1200px) {
+    .about__picture img {
+        padding: 0px 80px;
+    }
     .subtitle {
         font-size: 36px;
         line-height: 48px;
